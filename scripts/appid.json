@@ -1,0 +1,8 @@
+{
+  "mp-weixin": {
+    "dev": "wxc13b87a4a0609afa",
+    "sit": "wxbb7c62063a9ef9ff",
+    "uat": "wxc13b87a4a0609afa",
+    "prod": "wxc13b87a4a0609afa"
+  }
+}

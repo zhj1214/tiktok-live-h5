@@ -1,0 +1,61 @@
+// scss 混入
+
+/* 停车缴费公共样式 begin */
+@mixin parking-block {
+  padding: 14px;
+  box-shadow: 0px 0px 15px -2px rgba(186, 186, 186, 0.04);
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+@mixin btn-style($h: 46px, $color: #ffffff, $bc: #fe5d4d) {
+  width: 100%;
+  height: $h;
+  background: $bc;
+  border-radius: 4px;
+  text-align: center;
+  font: 500 14px 'SFUIDisplay-Medium, SFUIDisplay';
+  line-height: $h;
+  color: $color;
+  border: 0;
+  &::after {
+    border: none;
+  }
+}
+/* 停车缴费公共样式 end */
+
+// 文本超出显示省略号
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin multi-line-omit($line: 1) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  overflow: hidden;
+}
+
+// 水品垂直居中
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 字母数字强制换行
+@mixin eng-num-wrap {
+  word-wrap: break-word;
+  white-space: normal;
+  word-break: break-all;
+}
+// 文本样式 不包含字体
+@mixin text-style($size: 14, $weight: 400, $color: #303133,$align: left) {
+  font-size: $size;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: $weight;
+  color: $color;
+  text-align: $align;
+}

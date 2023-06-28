@@ -1,0 +1,36 @@
+{
+  "name": "捷途",
+  "description": "",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wxc13b87a4a0609afa",
+    "setting": {
+      "urlCheck": false,
+      "es6": false
+    },
+    "optimization": {
+      "subPackages": true
+    },
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于适用门店的排序"
+      }
+    }
+  },
+  "h5": {
+    "router": {
+      "mode": "history",
+      "base": ""
+    },
+    "permission": {},
+    "sdkConfigs": {
+      "maps": {
+        "qqmap": {
+          "key": "SG4BZ-G4ZCW-VDTRC-RQNA5-6VYBE-66BHZ"
+        }
+      }
+    }
+  }
+}

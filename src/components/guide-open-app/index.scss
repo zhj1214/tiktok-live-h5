@@ -1,0 +1,52 @@
+.guide-open-app {
+  background: rgba(0 ,0, 0, 0.7);
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  .content {
+    width: 610rpx;
+    background: #ffffff;
+    padding: 52rpx 40rpx 64rpx 40rpx;
+    margin: 240rpx auto;
+    position: relative;
+    .content-item {
+      font-weight: 500;
+      font-size: 32rpx;
+      line-height: 160%;
+      color: #1A1A1A;
+      display: flex;
+      align-items: center;
+      margin-top: 32rpx;
+      .content-item-icon {
+        width: 68rpx;
+        height: 68rpx;
+        margin-left: 20rpx;
+      }
+      .content-item-icon2 {
+        width: 530rpx;
+        height: 212rpx;
+      }
+    }
+    .content-item-btn {
+      border: 2rpx solid #dddddd;
+      border-radius: 48rpx;
+      width: 268rpx;
+      height: 96rpx;
+      font-size: 28rpx;
+      font-weight: 500;
+      color: #1A1A1A;
+      margin: 72rpx auto 0;
+      text-align: center;
+      line-height: 96rpx;
+    }
+    .icon {
+      width: 148rpx;
+      height: 140rpx;
+      position: absolute;
+      right: 0;
+      top: -140rpx;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+/*字体 */
+// @font-face {
+//   font-family: 'SourceHanSansSC-Medium';
+//   src: url('https://jetour-sit.obs.cn-east-3.myhuaweicloud.com/fe-mall-2c/fonts/SourceHanSansSC-Medium.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-ExtraLight';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-ExtraLight.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-Heavy';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-Heavy.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-Light';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-Light.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-Medium';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-Medium.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-Normal';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-Normal.otf');
+// }
+// @font-face {
+//   font-family: 'SourceHanSansSC-Regular';
+//   src: url('https://alpha-sit.oss-cn-hangzhou.aliyuncs.com/fe-mall-2c/fonts/SourceHanSansSC-Regular.otf');
+// }
+
+body {
+  font-family: 'SourceHanSansSC-Medium', 'SourceHanSansSC';
+}
+.font-normal {
+  font-family: 'SourceHanSansSC-Medium', 'SourceHanSansSC';
+}
+.font-regular {
+  font-family: 'SourceHanSansSC-Regular', 'SourceHanSansSC';
+}
+.font-light {
+  font-family: 'SourceHanSansSC-Medium', 'SourceHanSansSC';
+}
+.font-medium {
+  font-family: 'SourceHanSansSC-Medium', 'SourceHanSansSC';
+}
+.font-bold {
+  font-family: 'SourceHanSansSC-Bold', 'SourceHanSansSC';
+}

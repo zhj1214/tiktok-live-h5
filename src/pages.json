@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "直播",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "pageOrientation": "portrait",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "捷途",
+    "navigationBarBackgroundColor": "#252525",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+
+  "subPackages": [
+    {
+      "root": "package-carmodel/pages",
+      "pages": [
+        // {
+        //   "path": "index",
+        //   "style": {
+        //     "navigationBarTitleText": "车辆配置表",
+        //     "navigationBarTextStyle": "black",
+        //     "navigationBarBackgroundColor": "#ffffff",
+        //     "navigationStyle": "custom",
+        //     "backgroundColor": "#F2F3F3"
+        //   }
+        // },
+        // {
+        //   "path": "car-compare",
+        //   "style": {
+        //     "navigationBarTitleText": "",
+        //     "navigationBarTextStyle": "black",
+        //     "navigationStyle": "custom",
+        //     "backgroundColor": "#F2F3F3",
+        //     "navigationBarBackgroundColor": "#ffffff"
+        //   }
+        // },
+        // {
+        //   "path": "car-compare-detail",
+        //   "style": {
+        //     "navigationBarTitleText": "车型对比",
+        //     "navigationBarTextStyle": "black",
+        //     "navigationStyle": "custom",
+        //     "backgroundColor": "#F2F3F3",
+        //     "navigationBarBackgroundColor": "#ffffff"
+        //   }
+        // }
+      ]
+    }
+  ]
+}

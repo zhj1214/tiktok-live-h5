@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    charset="UTF-8" />
+  <link rel="shortcut icon"
+    href=//p1-live.byteimg.com/tos-cn-i-gjr78lqtd0/3f061494968a653d3409e0607259939e.png~tplv-gjr78lqtd0-image.image
+    sizes="16x16">
+  <!-- 抖音直播 -->
+  <link rel="stylesheet" href="https://lf-cdn-tos.bytescm.com/obj/static/livesaas-client/mobile/css/index.1.2.8.css">
+  <title>捷途</title>
+  <!-- #ifdef H5 -->
+  <script src="https://supaur-jetour.oss-cn-hangzhou.aliyuncs.com/sit/fe-hybrid-h5/sdk/vconsole.min.js"></script>
+  <!-- <script>
+    window._AMapSecurityConfig = {
+      serviceHost: '/_AMapService'
+      // serviceHost: 'https://h5-app-uat.jetour.com.cn/_AMapService' // 开发代理
+      // 例如 ：serviceHost:'http://1.1.1.1:80/_AMapService',
+    }
+  </script> -->
+  <script>
+    // ios10以上双击缩放问题
+    window.onload = function () {
+      if (navigator.userAgent.indexOf('iPhone') > -1 || navigator.userAgent.indexOf('iPad') > -1) {
+        console.log(navigator.userAgent, 'iphone')
+        document.addEventListener('touchstart', function (event) {
+          if (event.touches.length > 1) {
+            event.preventDefault()
+          }
+        })
+        var lastTouchEnd = 0
+        document.addEventListener(
+          'touchend',
+          function (event) {
+            var now = new Date().getTime()
+            if (now - lastTouchEnd <= 400) {
+              event.preventDefault()
+            }
+            lastTouchEnd = now
+          },
+          false
+        )
+        document.addEventListener('gesturestart', function (event) {
+          event.preventDefault()
+        })
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+  <!-- 抖音直播 -->
+  <script src="https://lf-cdn-tos.bytescm.com/obj/static/livesaas-client/mobile/js/index.1.2.8.js"></script>
+  <!-- OBS -->
+  <script src="https://gosspublic.alicdn.com/aliyun-oss-sdk-6.15.0.min.js"></script>
+</body>
+
+</html>

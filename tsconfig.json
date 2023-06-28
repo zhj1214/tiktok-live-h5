@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "outDir": "/",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "types": ["node", "@dcloudio/types", "@dcloudio/uni-app"],
+    "paths": {
+      "@src/*": ["src/*"],
+      "@api/*": ["src/api/*"],
+      "@util/*": ["src/util/*"],
+      "$dayjs": ["node_modules/dayjs/esm/index.js"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "unpackage", "scripts", "src/components/uni-*/*", "src/lib/*"]
+}

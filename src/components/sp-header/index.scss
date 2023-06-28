@@ -1,0 +1,17 @@
+.sp-header {
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  &.fixed {
+    position: fixed;
+  }
+  &.relative {
+    position: relative;
+  }
+  .status-bar {
+    width: 100%;
+    &.white {
+      background-color: white;
+    }
+  }
+}
